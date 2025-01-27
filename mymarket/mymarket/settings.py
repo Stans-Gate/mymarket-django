@@ -57,7 +57,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'puddle.urls'
+ROOT_URLCONF = 'mymarket.urls'
 
 TEMPLATES = [
     {
@@ -75,7 +75,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'puddle.wsgi.application'
+WSGI_APPLICATION = 'mymarket.wsgi.application'
 
 
 # Database
