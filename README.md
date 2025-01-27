@@ -1,5 +1,20 @@
 This is a website built with django that supports functionalities like user auth, communication between users, dashboard for displaying items you want to sell, form handling and customizations. 
 
+How to boot up the website: 
+1. git clone repo
+2. use the command inside the mymarket folder: python manage.py runserver
+
+How to play around with the website: 
+1. Signup for your account 
+2. Login to your account
+3. Add items that you want to display with the New Item
+4. Browse other users items in Browse
+5. Check all the items you displayed in dashboard
+6. Check inbox for messages from potential buyers
+
+Time spent:
+I don't remember how much I spent, but definitely more than 5. 
+
 Project Structure:
 The project is modular, with each app handling a specific feature. Here’s a breakdown:
 core: Manages user authentication and site-wide utilities.
